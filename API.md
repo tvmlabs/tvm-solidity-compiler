@@ -2686,7 +2686,7 @@ pragma AbiHeader expire;
 Defines headers that are used in external messages:
 
 * `notime` - disables `time` abi header, which is enabled by default. Abi header `time` – `uint64` local time when message was created, used for replay protection
-* `pubkey` (`uint256`) - optional public key that the message can be signed with.
+* `pubkey` (`uint256`) - optional public key that can be used to verify the signature of the message.
 * `expire` (`uint32`)  - time when the message should be meant as expired.
 
 **Note:**
